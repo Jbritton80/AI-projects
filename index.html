@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Putt Putt</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app">
+    <h1>Mini Putt Putt</h1>
+    <p class="instructions">Drag from the ball to aim and set power, then release to shoot.</p>
+    <canvas id="game" width="900" height="520" aria-label="Mini putt putt game"></canvas>
+    <section class="hud">
+      <span id="strokes">Strokes: 0</span>
+      <span id="status">Sink the ball in the hole!</span>
+      <button id="reset" type="button">New Hole</button>
+    </section>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>
